@@ -66,3 +66,87 @@
 </script>
 </body>
 </html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #111827, #2563eb);
+}
+
+
+#conteudo{
+    background: white;
+    width: 400px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+
+#titulo{
+    color: #2563eb;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#input{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    outline: none;
+}
+
+
+#input:focus{
+    border-color: #2563eb;
+}
+
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover{
+    background: #1d4ed8;
+    transform: scale(1.03);
+}
+
+
+#resultado{
+    margin-top: 25px;
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    white-space: pre-line;
+    color: #111827;
+    font-size: 16px;
+}
